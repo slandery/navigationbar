@@ -1,0 +1,83 @@
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    color: f9f9f9; 
+}
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+     font-family: 'Langar', cursive;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: wavy underline;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: rebeccapurple;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #610752}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+h1{ 
+    text-align: center;
+    color:palevioletred;
+    font-family: 'Langar', cursive;}
+    
+#name{
+        background-color: lavender;
+        color:darkred;
+        border:5px solid}
+a:hover{
+    color:violet
+}
+div p{
+    background-color: rgb(229, 157, 211);
+    color:whitesmoke;
+    padding:60px;
+    border:violet; 
+    border:5px dotted;
+    font-family: 'Dancing Script', cursive;
+    font-size: 24px;
+    
+    
+}
+footer{
+    color:aliceblue;
+    float: left;
+    font-family: 'Langar', sans-serif ;
+    display: inline;
+    text-align: center;
+    padding: auto;    
+}
